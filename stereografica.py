@@ -9,7 +9,8 @@ def stereografica(phi):
     day  = 1
     hour = 12  
     np.seterr(invalid='ignore')
-    days  = np.arange(1, 365/2+1,21)
+    #days  = np.arange(1, 365/2,20)
+    days  = [21,51,80,111,141,172,355]
     rad = np.pi/180.; deg = 180./np.pi; contador =  0 
     r = [] 
     angulo = []
